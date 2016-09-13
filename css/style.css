@@ -129,9 +129,21 @@ body,
 #container {
   font-size: 10px;
   height: 100%;
+  font-family: tahoma, Helvetica, Arial, "\5FAE\8F6F\96C5\9ED1";
 }
 a {
-  color: #555;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
 }
 .clearfix {
   display: block;
@@ -226,7 +238,7 @@ body {
     width: 100%;
   }
   .container {
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
   }
   .container-box {
@@ -410,6 +422,9 @@ body {
   height: auto;
   padding-bottom: 20px;
 }
+.container a {
+  color: #555;
+}
 .container .content {
   background-color: #fff;
   border-radius: 10px;
@@ -420,8 +435,8 @@ body {
 }
 .container .content h2 {
   height: 30px;
-  line-height: 30px;
-  padding: 30px 30px;
+  padding: 30px 30px 40px;
+  font-weight: bold;
 }
 .container .content h2 a {
   font-size: 2rem;
@@ -429,6 +444,9 @@ body {
 }
 .container .content h2 a:hover {
   color: #444;
+}
+.container .content p {
+  font-size: 1.4rem;
 }
 .container .content .summary {
   line-height: 26px;
@@ -440,6 +458,9 @@ body {
 }
 .container .content .summary figure {
   margin: 20px 0;
+}
+.container .content .summary h2 {
+  padding: 2rem 0;
 }
 .container .content .submenu {
   height: 50px;
@@ -668,6 +689,9 @@ body {
   margin: 0 auto;
   color: #555;
   line-height: 30px;
+}
+.footer a {
+  color: #555;
 }
 .footer .flink {
   height: auto;
