@@ -434,8 +434,8 @@ body {
   color: #555;
 }
 .container .content h2 {
-  height: 30px;
   padding: 30px 30px 40px;
+  line-height: 3rem;
   font-weight: bold;
 }
 .container .content h2 a {
@@ -518,48 +518,11 @@ body {
 .container .article .summary p {
   padding-top: 15px;
 }
-.container .article .share {
-  padding: 15px 30px;
-}
-.container .article .comment {
-  padding: 15px 30px;
-  height: auto;
-}
-.container .article .comment .count-comment {
-  line-height: 40px;
-  font-size: 1.6rem;
-}
-.container .article .comment .comment-article {
-  border-top: 1px solid #ddd;
-  height: auto;
-  padding: 10px 0;
-}
-.container .article .comment .comment-article .userphoto {
-  width: 10%;
-  text-align: center;
-  padding-top: 8px;
-}
-.container .article .comment .comment-article .userphoto img {
-  width: 50px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-.container .article .comment .comment-article .container-box .user-time {
-  line-height: 30px;
-  color: #ddd;
-  padding-left: 10px;
-}
-.container .article .comment .comment-article .container-box .ly-content {
-  padding: 10px 10px;
-}
 #comments {
   background: #fff;
-  -webkit-box-shadow: 1px 2px 3px #ddd;
-  box-shadow: 1px 2px 3px #ddd;
   padding: 20px;
-  border: 1px solid #ddd;
   border-radius: 3px;
-  margin: 50px 0;
+  margin: 0 0;
 }
 #comments a {
   color: #258fb8;
